@@ -1,4 +1,4 @@
-# Aquacheck_SDI12_Soil_moisture
+# Aquacheck SDI12 Soil moisture
 Aquacheck SDI12 Soil moisture sensor | Logger | Parser
 
 The examples are provided to demonstrate how easy it is to communicate with Aquacheck soil moisture probes. 
