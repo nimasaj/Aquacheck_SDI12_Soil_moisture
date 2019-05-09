@@ -6,6 +6,8 @@ The examples are provided to demonstrate how easy it is to communicate with Aqua
 The examples are based on [EnviroDIY](https://github.com/EnviroDIY/Arduino-SDI-12) library. You have to install [EnviroDIY](https://github.com/EnviroDIY/Arduino-SDI-12) library before using these examples. 
 Looking for more examples? Head over to the library repository.
 
+A copy of a EnviroDIY library is also provided here, as a backup.
+
 #### If you are using SoftwareSerial in your project, read below:
 Since the library has conflicts with SoftwareSerial library, some workarounds are provided in this [topic](https://github.com/EnviroDIY/Arduino-SDI-12/issues/8). Based on that, I made a clone of SoftwareSerial library that you can easily install next to original SoftwareSerial library. Although, you have to modify PCINT Request Vectors in both SoftwareSerial library and SDI-12 library based on your request. For my work, data pin defined as D13 and SoftwareSerial pins as D5 & D6, no change is required. To know mapping of PCINT Request Vectors, refer to [this page](http://gammon.com.au/interrupts) or have a look at following quick-hint.
 
