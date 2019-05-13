@@ -4,7 +4,7 @@ Aquacheck SDI12 Soil moisture sensor | Logger | Parser
 The examples are provided to demonstrate how easy it is to communicate with Aquacheck soil moisture probes. 
 
 The examples are based on [EnviroDIY](https://github.com/EnviroDIY/Arduino-SDI-12) library. You have to install [EnviroDIY](https://github.com/EnviroDIY/Arduino-SDI-12) library before using these examples. 
-Looking for more examples? Head over to the library repository.
+Looking for more examples? Head over to the [library repository](https://github.com/EnviroDIY/Arduino-SDI-12).
 
 A copy of a EnviroDIY library is also provided [here](https://github.com/nimasaj/Aquacheck_SDI12_Soil_moisture/tree/master/EnviroDIY/src), as a backup.
 
