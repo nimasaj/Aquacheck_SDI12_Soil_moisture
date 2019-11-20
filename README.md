@@ -16,7 +16,7 @@ Since the library has conflicts with SoftwareSerial library, some workarounds ar
 * D8 to D13 ::: PCINT0_vect
 * A0 to A5 ::: PCINT1_vect
 
-For ATMEGA328P, in "PCICR – Pin Change Interrupt Control Register" section, datasheet page 56. Then, finding mapping of PCINTxx pins with pinout of MCU, datasheet page 3, and Arduino.
+For ATMEGA328P, in "PCICR – Pin Change Interrupt Control Register" section, datasheet page 56. Then, finding mapping of PCINTxx pins with pinout of MCU, datasheet page 3, and Arduino pin mapping.
 
 
 
