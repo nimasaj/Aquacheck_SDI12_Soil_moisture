@@ -214,11 +214,7 @@ int8_t SDIparser(String str, int8_t &v0, int8_t &v1, int8_t &v2){
   if (SDIdebug){
     Serial.println("\n");
   }
-  //return(parts);  
-  // Since in C and Arduino it is not possible to return arrays in
-  // functions, I had to do it in this way. https://forum.arduino.cc/index.php?topic=42934.0
-  // The other way would be defining array "parts" globally. Therefore, you could access it
-  // directly in Loop();
+  //It's also possible to return the values in a vector.
   v0=parts[0];
   v1=parts[1];
   v2=parts[2];
